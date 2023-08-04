@@ -139,3 +139,22 @@
 // }
 // let y = highAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4");
 // console.log(y);
+
+// If you can't sleep, just count sheep!!
+
+// Task:
+// Given a non-negative integer, 3 for example, return a string with a murmur: "1 sheep...2 sheep...3 sheep...".
+//  Input will always be valid, i.e. no negative integers
+
+var count_sheep = function(num){
+if (typeOf(num) !== "number"){
+    console.log("give positive number");
+}
+
+for (var i =1; i<=num ; i++){
+console.log(i + "sheep.....");
+}
+
+}
+
+count_sheep(4);

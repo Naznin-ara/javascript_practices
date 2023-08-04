@@ -53,14 +53,45 @@
 
 // find number of vowel in the sentence
 
-function vowel(str){
+// function vowel(str){
 
-    let vowel_list = "aeiouAEIOU";
+//    let count =0;
+//     // let newarray=[];
+//     for (var i=0; i<str.length; i++){
+        
+//     if(str[i].match(/[aeiou]/i)){
+//     // newarray.push(str[i]);
+//     count++;
+//      }
 
-    return str.includes(vowel_list) ? true : false;
+//     }
+
+//     return count;
+//     // return newarray.length;
+
+
+// }
+// let x = vowel("I love my country so much besause i m bangladeshi");
+// console.log(x);
 
 
 
-}
-let x = vowel("my name is silve");
-console.log(x);
+// remove common letter between two str.
+
+// function myFunction(str1, str2){
+
+// let str3 = str1.split("");
+// let str4 = str2.split("");
+// let newarray =[];
+// str3.map ( e => {
+//      if(!str4.includes(e)){
+//         newarray.push(e);
+//      }; 
+// })
+// // let result = newarray.join("").split(" ");
+// // return result.join('');
+// return newarray.join('');
+// }
+
+// let x = myFunction("I am an women and i love my family", "aodwnv");
+// console.log(x);
